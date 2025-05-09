@@ -1,0 +1,17 @@
+# requirements.txt
+
+llama-cpp-python
+
+openai
+
+uvicorn
+
+starlette
+
+fastapi
+
+sse_starlette
+
+starlette_context
+
+pydantic_settings

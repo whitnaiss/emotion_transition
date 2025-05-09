@@ -1,0 +1,153 @@
+{
+  "best_global_step": 50,
+  "best_metric": 0.00947222,
+  "best_model_checkpoint": "/root/autodl-tmp/code/llama_lora_emotion_model/v0-20250504-102110/checkpoint-50",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 50,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.02,
+      "grad_norm": 80.46146392822266,
+      "learning_rate": 9.990133642141359e-05,
+      "loss": 9.236947059631348,
+      "memory(GiB)": 3.0,
+      "step": 1,
+      "token_acc": 0.4375,
+      "train_speed(iter/s)": 0.457796
+    },
+    {
+      "epoch": 0.1,
+      "grad_norm": 9.479217529296875,
+      "learning_rate": 9.755282581475769e-05,
+      "loss": 2.854442596435547,
+      "memory(GiB)": 3.17,
+      "step": 5,
+      "token_acc": 0.5703125,
+      "train_speed(iter/s)": 0.76265
+    },
+    {
+      "epoch": 0.2,
+      "grad_norm": 6.184609413146973,
+      "learning_rate": 9.045084971874738e-05,
+      "loss": 0.38542938232421875,
+      "memory(GiB)": 3.17,
+      "step": 10,
+      "token_acc": 0.7875,
+      "train_speed(iter/s)": 0.844389
+    },
+    {
+      "epoch": 0.3,
+      "grad_norm": 11.934122085571289,
+      "learning_rate": 7.938926261462366e-05,
+      "loss": 0.2875977516174316,
+      "memory(GiB)": 3.17,
+      "step": 15,
+      "token_acc": 0.8625,
+      "train_speed(iter/s)": 0.877055
+    },
+    {
+      "epoch": 0.4,
+      "grad_norm": 8.216574668884277,
+      "learning_rate": 6.545084971874738e-05,
+      "loss": 0.1732654094696045,
+      "memory(GiB)": 3.17,
+      "step": 20,
+      "token_acc": 0.95625,
+      "train_speed(iter/s)": 0.89163
+    },
+    {
+      "epoch": 0.5,
+      "grad_norm": 4.8150177001953125,
+      "learning_rate": 5e-05,
+      "loss": 0.06562775373458862,
+      "memory(GiB)": 3.18,
+      "step": 25,
+      "token_acc": 0.9875,
+      "train_speed(iter/s)": 0.895605
+    },
+    {
+      "epoch": 0.6,
+      "grad_norm": 14.346074104309082,
+      "learning_rate": 3.4549150281252636e-05,
+      "loss": 0.0401605099439621,
+      "memory(GiB)": 3.18,
+      "step": 30,
+      "token_acc": 0.9875,
+      "train_speed(iter/s)": 0.896863
+    },
+    {
+      "epoch": 0.7,
+      "grad_norm": 1.383607268333435,
+      "learning_rate": 2.061073738537635e-05,
+      "loss": 0.02236991226673126,
+      "memory(GiB)": 3.52,
+      "step": 35,
+      "token_acc": 0.9875,
+      "train_speed(iter/s)": 0.89939
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 0.4610396921634674,
+      "learning_rate": 9.549150281252633e-06,
+      "loss": 0.014105525612831116,
+      "memory(GiB)": 3.52,
+      "step": 40,
+      "token_acc": 0.99375,
+      "train_speed(iter/s)": 0.904112
+    },
+    {
+      "epoch": 0.9,
+      "grad_norm": 0.1741822510957718,
+      "learning_rate": 2.4471741852423237e-06,
+      "loss": 0.010464712232351302,
+      "memory(GiB)": 3.72,
+      "step": 45,
+      "token_acc": 0.99375,
+      "train_speed(iter/s)": 0.904658
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.28922346234321594,
+      "learning_rate": 0.0,
+      "loss": 0.0010134832933545112,
+      "memory(GiB)": 3.72,
+      "step": 50,
+      "token_acc": 1.0,
+      "train_speed(iter/s)": 0.90775
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.009472223930060863,
+      "eval_runtime": 3.1272,
+      "eval_samples_per_second": 63.954,
+      "eval_steps_per_second": 31.977,
+      "eval_token_acc": 0.995,
+      "step": 50
+    }
+  ],
+  "logging_steps": 5,
+  "max_steps": 50,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 537326827929600.0,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}
